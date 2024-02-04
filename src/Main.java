@@ -13,7 +13,7 @@ public class Main {
         double companyVehicleConsumption = 9.2; // l/100km
         String companyCompIP = "192.138.42.39";
 
-        BigDecimal averageQuantityPerAgreements = BigDecimal.valueOf(carrotSold / numberOfAgreements);
+        double averageQuantityPerAgreements = carrotSold / numberOfAgreements;
         System.out.println(
                 "The average quantity of sold carrots per contract is " + averageQuantityPerAgreements + " tons.");
     }
